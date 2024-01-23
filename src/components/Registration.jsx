@@ -34,17 +34,16 @@ const LoadingModal = () => {
                 </button>
               </div>
               <div className="modal-body d-flex align-items-center justify-content-center flex-column gap-3">
+                x
               <img src="https://static.vecteezy.com/system/resources/thumbnails/018/930/746/small/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.png" alt="success" />
               <p className='fs-4 text-white mt-4'>
              New Message to Confirm.
               </p>
               <p className='fs-5 text-white'>
-              Confirm Here For free Data Science Bootcamp
+              Confirm Here For free Java Fullstack Development Bootcamp
               </p>
-              <Link to="https://chat.whatsapp.com/INg6WosbQBx4svP30iESFM" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
-             
+              <Link to="https://chat.whatsapp.com/INg6WosbQBx4svP30iESFM" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
                </div>
-           
             </div>
           </div>
         </div>
@@ -213,7 +212,7 @@ function Registration() {
               axios.post('https://dull-trousers-deer.cyclic.app/api/datascience/register', reg)
               .then(response => {
                 // Handle the response data here
-                toast.success("Thank you for registering to Data Science  Bootcamp")
+                toast.success("Thank you for registering to Java Fullstack Development  Bootcamp")
                 setShowModal(true)
                 console.log(response);
               })
@@ -309,7 +308,7 @@ function Registration() {
               // else if(reg.coupon==="AMC" || reg.coupon==="ACSE"||reg.coupon==="kavitha"||reg.coupon=="UVCE"|| reg.coupon ==="GCEM"|| reg.coupon ==="DSCE"|| reg.coupon ==="BIET"||reg.coupon ==="BMSIT" || reg.coupon === "BPDS01" ||reg.coupon === "AIT" || reg.coupon === "SP01" || reg.coupon === "JHC" || reg.coupon === "MBCAC"|| reg.coupon === "BASKARANTONY123" || reg.coupon === "JNNC"){
               //   setLoading(false);
               //   setShowModal(true)
-              //   toast.info("thanks for registering for data science webianar and You got free registartion ,");
+              //   toast.info("thanks for registering for Java Fullstack Development webianar and You got free registartion ,");
               //   setReg({
               //     name: "",
               //     email: "",
@@ -333,7 +332,7 @@ function Registration() {
        <div className="registration-form-container text-center rounded-3">
                 <div className="card register-form rounded-3">
                     <div className="card-header text-start">
-                    <h1 className="p-large-xl text-white">Enroll Our <br />Data Science  Bootcamp</h1>
+                    <h1 className="p-large-xl text-white">Enroll Our <br />Java Fullstack Development  Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-main mx-2">Free</h1>
             <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
@@ -361,7 +360,7 @@ function Registration() {
                                  </div>
                             </div>
                             <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='coupon' placeholder='Coupon Code (optional)'  value={reg.coupon} onChange={readValue} />
+                                <input type="text" className="form-control p-3" name='college' placeholder='College/YoP '  value={reg.year} onChange={readValue} />
                             </div>
                               {
                                 isCoupon?(
@@ -376,15 +375,18 @@ function Registration() {
                                {
                                 freeCoupon ? (
                                    <div class="alert alert-success mt-4" role="alert">
-                                     Congratulations! You are eligible for free registration to our Data Science  Bootcamp. <i class="bi bi-arrow-right"></i>
+                                     Congratulations! You are eligible for free registration to our Java Fullstack Development  Bootcamp. <i class="bi bi-arrow-right"></i>
                                   </div>
                                  
                                 ):(
                                  null
                                 )
                               }
+                               <div className="form-group mt-2">
+                                <input type="text" className="form-control p-3" name='location' placeholder='Location'  value={reg.loc} onChange={readValue} />
+                            </div>
                             <div className="form-group mt-5">
-                               <button type="submit" className='main-btn text-700 w-100 '>Register <i class="bi bi-hand-index-thumb"></i></button>
+                               <button type="submit" className='main-btn text-700 w-100 anim-btn'>Register <i class="bi bi-hand-index-thumb " ></i></button>
                             </div>
                         </form>
                     </div>

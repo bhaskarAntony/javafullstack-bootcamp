@@ -1,12 +1,12 @@
 :root{
-  --green-color:#7E30E1;
+  --green-color:#C39E5C;
   --black-color:#1a1a1a;
   --dark-blue:#222222;
   --dark-green:#395c51
 
 }
 *{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 .text-main{
   color: var(--green-color);
@@ -40,11 +40,28 @@
 }
 .main-btn{
   border: none;
-  background-color: var(--green-color);
+  background-color: #000;
   padding: 15px;
   font-size: 1.3rem;
   color: #fff;
   border-radius: 10px;
+  letter-spacing: 1.5px;
+}
+.anim-btn{
+  animation: animation 0.2s linear infinite alternate !important;
+  background-color: #000D6B;
+}
+.anim-btn:hover{
+  animation-play-state: paused !important;
+}
+/* .main-btn */
+@keyframes animation {
+  from{
+    transform: scale(0.9);
+  }
+  to{
+    transform: scale(1.002);
+  }
 }
 .div-block-876 {
   min-height: 50px;
@@ -56,7 +73,7 @@
   align-items: center;
   padding: 8px 12px;
   display: flex;
-  color: #fff;
+  /* color: #fff; */
 }
 @media (max-width:600px){
   .registration{
@@ -90,6 +107,9 @@
     font-size: 1.1rem;
   }
 
+}
+.cerificate{
+  border: 2px solid #C39E5C;
 }
 
 /* loading modal */

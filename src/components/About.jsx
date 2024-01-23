@@ -56,7 +56,7 @@ counter()
                 <div className="col-lg-8 col-md-6 col-sm-12 align-item-center">
                   <h1 className="text-main fs-1">Bootcamp co-ordinater</h1>
                   <h1 className="fs-3 text-white">Ganesh</h1>
-                  <span className="fs-4 d-block text-white">Data Science Fullstack trainer</span>
+                  <span className="fs-4 d-block text-white">Java Fullstack Development Fullstack trainer</span>
                   <span className='text-white'>10 Years of experience</span>
                   
                   <div className="project">

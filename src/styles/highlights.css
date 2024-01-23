@@ -1,8 +1,8 @@
 
 
 .highlight-card{
-    background: url('../images/low-poly-grid-haikei.svg') no-repeat center;
-    background-size: cover;
+    /* background: url('../images/low-poly-grid-haikei.svg') no-repeat center;
+    background-size: cover; */
     color: #000000;
     text-align: left;
     border-radius: 20px;
@@ -13,7 +13,9 @@
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
-    border: 1px solid #858585;
+    border: 1px solid #000000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #f7e5bd;
 }
 .h-card-header{
     display: flex;
@@ -26,13 +28,13 @@
     max-height: 100px !important;
 }
 .h-card-body{
-    background-color: #2d2d2d;
+    background-color: #ffffff;
     min-height: 150px;
     /* border-radius: 50px 50px 0 0; */
     display: flex;
     flex-direction: column;
     justify-content: end;
-    color: #fff;
+    color: #060606;
     padding: 10px;
-    border: 1px solid #858585;
+    border-top: 1px solid #000000;
 }

@@ -16,7 +16,6 @@ function Home() {
       <HomeHero/>
       <Modules/>
       <Highlights/>
-      <Enroll/>
       <Certificate/>
       {/* <About/>     */}
       

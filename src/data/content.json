@@ -1,28 +1,24 @@
 {
     "working":[
          {
-        "works":"Collect, Clean, Analyze  the dataset using the Python libraries"
+        "works":"Have a solid understanding of data structures like Hashing, Arrays."
     },
     {
-        "works":"Load data, Clean using Pandas, and Visualize using matplotlib & seaborn          "
+        "works":"Work on algorithms like Recursion to solve coding challenges.   "
     },
     {
-        "works":"Load and apply Feature Engineering to the data using Scikit-Learn"
+        "works":"Learn to analyze your code using Big-O notation. "
     },
-    {
-        "works":"Select the machine Learning algorithm to build the model            "
-    },
-    {
-        "works":"Testing the data and doing the Predictions."
-    },
+
+
         {
-            "works":"Acquire valuable, hands-on insights to launch your Data Science  career effectively"
+            "works":"Acquire valuable, hands-on insights to launch your Java Fullstack Development  career effectively"
         },
         {
             "works":"Get your burning questions answered by industry experts in real time"
         },
         {
-            "works":"Learn from experts about the current job market's robust demand for careers in Data Science "
+            "works":"Learn from experts about the current job market's robust demand for careers in Java Fullstack Development "
         },
         {
             "works":"Attend our Bootcamp conveniently from your own home"

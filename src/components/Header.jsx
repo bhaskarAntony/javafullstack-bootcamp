@@ -3,26 +3,26 @@ import '../styles/header.css'
 
 function Header() {
   return (
-    <header className='bg-dark'>
-      <marquee behavior="scroll" direction="right" scrollamount="10" className="m-0 bg-main">
+    <header className='bg-white'>
+      <marquee behavior="scroll" direction="right" scrollamount="10" className="m-0 bg-success">
         <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold  text-white">
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
-          <span>Free Data Science  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free Java Fullstack Development  Bootcamp</span>
          
         </div>
       </marquee>
     <nav className="navbar navbar-expand-lg navbar-dark  p-3">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#home"><img src="https://res.cloudinary.com/dfogisedz/image/upload/v1696400519/webinar/wuxjubwtp8csymfqv28t.png" alt="" /> </a>
+      <a className="navbar-brand" href="#home"><img src="https://bepractical.s3.us-east-2.amazonaws.com/brand-logo.cc6e3cf088a8fd3005b1.jpg" alt="" /> </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
