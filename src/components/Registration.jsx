@@ -60,7 +60,7 @@ function Registration() {
     const [freeCoupon, setFreeCoupon] = useState(false)
     useEffect(() => {
       // Fetch influencer data from the API endpoint
-      axios.get('https://emerald-sockeye-tux.cyclic.app//api/influencers/list')
+      axios.get('https://stormy-flannel-nightgown-ox.cyclic.app/api/influencers/list')
         .then((response) => {
           setInfluencers(response.data);
           console.log("influencers", response.data);
@@ -209,7 +209,7 @@ function Registration() {
           //   return;
           // }
           try {
-              axios.post('https://dull-trousers-deer.cyclic.app/api/java/register', reg)
+              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/java/register', reg)
               .then(response => {
                 // Handle the response data here
                 toast.success("Thank you for registering to Java Fullstack Development  Bootcamp")
