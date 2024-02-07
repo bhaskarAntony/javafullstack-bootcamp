@@ -42,7 +42,7 @@ const LoadingModal = () => {
               <p className='fs-5 text-white'>
               Confirm Here For free Java Fullstack Development Bootcamp
               </p>
-              <Link to="https://chat.whatsapp.com/INg6WosbQBx4svP30iESFM" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
+              <Link to="https://chat.whatsapp.com/FencPpzqS9p2iiHwdckqrv" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
                </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ const LoadingModal = () => {
 function Registration() {
     const [influencers, setInfluencers] = useState([]);
     const [isCoupon, setIsCoupon] = useState(false)
-
+  const [users, setUsers] = useState(null)
     const [showModal, setShowModal] = useState(false);
     const [freeCoupon, setFreeCoupon] = useState(false)
     useEffect(() => {
@@ -69,6 +69,12 @@ function Registration() {
           console.error('Error fetching influencers:', error);
         });
     }, []);
+    useEffect(()=>{
+      axios.get('https://stormy-flannel-nightgown-ox.cyclic.app/api/java/list')
+      .then((response)=>{
+          setUsers(response.data)
+      })
+    },[])
     const [reg, setReg] = useState({
         name: "",
         email: "",
@@ -331,10 +337,14 @@ function Registration() {
 }
        <div className="registration-form-container text-center rounded-3">
                 <div className="card register-form rounded-3">
+                  <div className="users d-flex align-items-center  w-auto top-0 translate-middle px-3 rounded-pill justify-content-between gap-3">
+                    <img src="https://media.tenor.com/q_KPruJ5GtYAAAAi/fire.gif" alt="" width={40} />
+                    <span className="fs-4 mt-2">{100 + users?.length} users</span>
+                  </div>
                     <div className="card-header text-start">
                     <h1 className="p-large-xl text-white">Enroll Our <br />Java Fullstack Development  Bootcamp</h1>
             <div className="d-flex align-items-end">
-            <h1 className="heading-text text-main mx-2">Free</h1>
+            <h1 className="heading-text text-success mx-2">Free</h1>
             <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
            
             </div>

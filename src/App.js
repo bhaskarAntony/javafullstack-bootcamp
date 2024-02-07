@@ -13,6 +13,11 @@ ReactGA.initialize('G-JVNG3G2GY2');
 
 
 function App() {
+  ReactGA.event({
+    category: 'User',
+    action: 'Clicked Button',
+    label: 'Homepage',
+  });
 
   useEffect(() => {
     // Extract UTM parameters from the URL

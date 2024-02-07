@@ -1,8 +1,17 @@
 .register-form{
     background-color: rgb(0, 0, 0) !important;
     width: 100%;
+    position: relative;
 }
 .register-form .card-header{
     /* background-color: rgba(255, 221, 162, 0.225);
     border: 1px solid rgba(255, 215, 73, 0.2); */
+}
+.users{
+    position: absolute;
+    right: -90px;  
+    background-color: #ffffff;
+    /* backdrop-filter: blur(10px); */
+    padding-bottom: 6px;
+    /* color: #fff;   */
 }
