@@ -23,7 +23,7 @@ function Certificate() {
                 <h1 className='p-large-xl text-900 text-main mb-3'>Java Fullstack Development  Bootcamp:</h1>
 
                 <p className="p-large text-dark">
-                The Bootcamp was conducted on 29th<sup>nd</sup>-30<sup>th</sup> jan 2024, and its duration spanned 4 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Java Fullstack Development .
+                The Bootcamp was conducted on thth<sup></sup>-16<sup>th</sup> jan 2024, and its duration spanned 4 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Java Fullstack Development .
                 </p>
 
             </div>
