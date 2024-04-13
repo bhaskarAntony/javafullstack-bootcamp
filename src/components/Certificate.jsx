@@ -20,12 +20,11 @@ function Certificate() {
                 This certificate is awarded in recognition of the participant's active engagement, dedication, and successful completion of the Java Fullstack Development  Bootcamp. Throughout the Bootcamp, participants gained valuable knowledge and hands-on experience in the field of Java Fullstack Development.
                 </p>
 
-                <h1 className='p-large-xl text-900 text-main mb-3'>Java Fullstack Development  Bootcamp:</h1>
+                <h1 className='p-large-xl text-900 text-main mb-3'>API Development using springboot Bootcamp:</h1>
 
                 <p className="p-large text-dark">
-                The Bootcamp was conducted on 15<sup>th</sup>-16<sup>th</sup> jan 2024, and its duration spanned 4 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Java Fullstack Development .
+                The Bootcamp was conducted on 15<sup>th</sup>-16<sup>th</sup> April 2024, and its duration spanned 4 Hours Bootcamp, ensuring participants had ample time to acquire the skills and knowledge necessary to excel in the field of Java Fullstack Development .
                 </p>
-
             </div>
         </div>
     </section>

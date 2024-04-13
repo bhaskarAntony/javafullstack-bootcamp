@@ -7,7 +7,7 @@ function Enroll() {
         <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-8 col-lg-6">
             <div className="enroll-card">
-            <h1 className="heading-subtitle text-dark">Enroll Our <br /> Java Fullstack Development Bootcamp</h1>
+            <h1 className="heading-subtitle text-dark">Enroll Our <br /> API Development using springboot Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-main mx-2">Free</h1>
             <h1 className="heading-subtitle text-dark"><del className='text-danger'>&#8377;1000</del></h1>

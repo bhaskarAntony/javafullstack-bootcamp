@@ -5,8 +5,8 @@ const allFaqs = {
   "faq": [
     {
         "title": "quest1",
-        "quest": "Why do we need to learn DSA?        ",
-        "ans":  "Data Structure and Algorithm plays an important role when it comes to design scalable applications. It helps to analyze code and also allows to utilize memory in much efficient way.         "
+        "quest": "Why do we need to learn Spring?",
+        "ans":  "Spring framework plays a crucial role when it comes to development of enterprise applications. Currently, Spring covers a huge market. Most of the companies are looking for developers who know how to work with Spring.  "
     },
     {
         "title": "quest2",
@@ -57,7 +57,7 @@ function FAQ() {
                             <div className="accordion-item bg-transparent mt-2 mb-2" key={index}>
                               <div className="accordion-header ">
                                 <div className="accordion-button collapsed  border bg-main mb-1" data-bs-target={`#${item.title}`} data-bs-toggle="collapse">
-                                    <h6 className="text-white"> { item.quest } </h6>
+                                    <h6 className="text-dark"> { item.quest } </h6>
                                 </div>
                               </div>
       

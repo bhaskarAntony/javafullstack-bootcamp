@@ -6,17 +6,21 @@ function Header() {
     <header className='bg-white'>
       <marquee behavior="scroll" direction="right" scrollamount="10" className="m-0 bg-success">
         <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold  text-white">
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
-          <span>Free Java Fullstack Development  Bootcamp</span>
+          <span>Free  API Development using springboot  Bootcamp</span>
+          <span>Free API Development using springboot  Bootcamp</span>
+          <span>Free JAPI Development using springboot  Bootcamp</span>
+          <span>Free  API Development using springboot  Bootcamp</span>
+          <span>Free API Development using springboot  Bootcamp</span>
+          <span>Free JAPI Development using springboot  Bootcamp</span>
+          <span>Free  API Development using springboot  Bootcamp</span>
+          <span>Free API Development using springboot  Bootcamp</span>
+          <span>Free JAPI Development using springboot  Bootcamp</span>
+          <span>Free  API Development using springboot  Bootcamp</span>
+          <span>Free API Development using springboot  Bootcamp</span>
+          <span>Free JAPI Development using springboot  Bootcamp</span>
+          <span>Free  API Development using springboot  Bootcamp</span>
+          <span>Free API Development using springboot  Bootcamp</span>
+          <span>Free JAPI Development using springboot  Bootcamp</span>
          
         </div>
       </marquee>

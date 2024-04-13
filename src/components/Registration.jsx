@@ -336,7 +336,7 @@ function Registration() {
         loading ? <LoadingModal/> : null
 }
        <div className="registration-form-container text-center rounded-3">
-                <div className="card register-form rounded-3">
+                <div className="card register-form rounded-3 shadow border-0">
                   <div className="users d-flex align-items-center  w-auto top-0 translate-middle px-3 rounded-pill justify-content-between gap-3">
                     <img src="https://media.tenor.com/q_KPruJ5GtYAAAAi/fire.gif" alt="" width={40} />
                     <span className="fs-4 mt-2">{100 + users?.length} users</span>
@@ -370,7 +370,7 @@ function Registration() {
                                  </div>
                             </div>
                             <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='college' placeholder='College/YoP '  value={reg.year} onChange={readValue} />
+                                <input type="text" className="form-control p-3" name='college' placeholder='College'  value={reg.year} onChange={readValue} />
                             </div>
                               {
                                 isCoupon?(
@@ -393,10 +393,10 @@ function Registration() {
                                 )
                               }
                                <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='location' placeholder='Location'  value={reg.loc} onChange={readValue} />
+                                <input type="text" className="form-control p-3" name='location' placeholder='passed out year'  value={reg.loc} onChange={readValue} />
                             </div>
                             <div className="form-group mt-5">
-                               <button type="submit" className='main-btn text-700 w-100 anim-btn'>Register <i class="bi bi-hand-index-thumb " ></i></button>
+                               <button type="submit" className='btn btn-dark p-3 fs-5 text-700 w-100'>Register <i class="bi bi-hand-index-thumb " ></i></button>
                             </div>
                         </form>
                     </div>

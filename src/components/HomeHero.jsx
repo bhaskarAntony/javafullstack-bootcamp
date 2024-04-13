@@ -11,11 +11,11 @@ function HomeHero() {
       <div className="blur2 d-none d-sm-none d-md-block"></div> */}
     
           <p className='p-2 text-black bg-secondary text-white rounded-5 mb-3 mt-3'>Java Fullstack Development  Bootcamp</p>
-        <h1 className="heading-text mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">Java Fullstack Development career</span></h1>
-        <div className="p-large text-dark">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete Java Fullstack Development,  Get E-Certificate and Study Meterial</div>
+        <h1 className="heading-text mt-3 text-900 py-2">Develop API using <span className="text-main">springboot </span>,,Java fullstack development</h1>
+        <div className="p-large text-dark">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete  API developement using springboot,  Get E-Certificate and Study Meterial</div>
         <div className="date-container mt-5">
-            <button className="btn fs-4 p-3 bg-black text-white"> <i class="bi bi-calendar2-event text-main mx-2"></i>15th -16 Jan 2024 </button>
-            <button className="btn fs-4 p-3 bg-black text-white"> <i class="bi bi-alarm text-main"></i> 7:30PM to 9:30PM</button>
+            <button className="btn fs-6 p-3 bg-black text-white"> <i class="bi bi-calendar2-event text-main mx-2"></i>15th -16 April 2024 </button>
+            <button className="btn fs-6 p-3 bg-black text-white"> <i class="bi bi-alarm text-main"></i> 7:30PM to 9:30PM</button>
         </div>
         <div className='container mt-5 text-start'>
         <div className="row align-items-center justify-content-center">
