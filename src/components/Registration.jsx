@@ -24,7 +24,7 @@ const LoadingModal = () => {
   const SpecialMessageModal = ({ show, onClose }) => {
     return (
       show && (
-        <div className="modal" style={{ display: show ? 'block' : 'none' }}>
+        <div className="modal centered" style={{ display: show ? 'block' : 'none' }}>
           <div className="modal-dialog ">
             <div className="modal-content bg-black">
               <div className="modal-header">
@@ -40,9 +40,9 @@ const LoadingModal = () => {
              New Message to Confirm.
               </p>
               <p className='fs-5 text-white'>
-              Confirm Here For free Java Fullstack Development Bootcamp
+              Confirm Here For free API Development using SpringBoot Bootcamp
               </p>
-              <Link to="https://chat.whatsapp.com/FencPpzqS9p2iiHwdckqrv" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
+              <Link to="https://chat.whatsapp.com/DpcylkuVUGD6oEIDyrGLze" target="_blank" className='btn bg-succss text-white p-3 w-100 d-block' style={{"backgroundColor":"green"}}>Confirm Registration</Link>
                </div>
             </div>
           </div>
@@ -79,7 +79,8 @@ function Registration() {
         name: "",
         email: "",
         mobile: "",
-        coupon: "",
+        college: "",
+        year: "",
       });
       if(reg.coupon===null){
         setIsCoupon(false)
@@ -342,7 +343,7 @@ function Registration() {
                     <span className="fs-4 mt-2">{100 + users?.length} users</span>
                   </div>
                     <div className="card-header text-start">
-                    <h1 className="p-large-xl text-white">Enroll Our <br />Java Fullstack Development  Bootcamp</h1>
+                    <h1 className="p-large-xl text-white">Enroll Our <br />free API Development using SpringBoot Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-success mx-2">Free</h1>
             <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
@@ -370,7 +371,7 @@ function Registration() {
                                  </div>
                             </div>
                             <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='college' placeholder='College'  value={reg.year} onChange={readValue} />
+                                <input type="text" className="form-control p-3" name='college' placeholder='College Name'  value={reg.college} onChange={readValue} />
                             </div>
                               {
                                 isCoupon?(
@@ -393,7 +394,7 @@ function Registration() {
                                 )
                               }
                                <div className="form-group mt-2">
-                                <input type="text" className="form-control p-3" name='location' placeholder='passed out year'  value={reg.loc} onChange={readValue} />
+                                <input type="number" className="form-control p-3" name='year' placeholder='passed out year'  value={reg.year} onChange={readValue} />
                             </div>
                             <div className="form-group mt-5">
                                <button type="submit" className='btn btn-dark p-3 fs-5 text-700 w-100'>Register <i class="bi bi-hand-index-thumb " ></i></button>
